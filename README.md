@@ -5,7 +5,7 @@ This is a project to create a stock bot that can predict the stock price of a co
 
 ## Installation
 ```bash
-pip install scikit-learn pandas numpy matplotlib xgboost yfinance seaborn autopep8 pandas-datareader keras tensorflow
+pip install scikit-learn pandas numpy matplotlib xgboost yfinance seaborn autopep8 pandas-datareader keras tensorflow ipykernel
 ```
 
 
