@@ -1,7 +1,9 @@
 # PyStockBot
 This is a project to create a stock bot that can predict the stock price of a company using machine learning.
 
+## Trading Design Architecture
 
+![Trading Design Architecture](.images/trading-design-architecture.png)
 
 ## Installation
 ```bash
