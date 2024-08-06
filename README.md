@@ -7,8 +7,17 @@ This is a project to create a stock bot that can predict the stock price of a co
 
 ## Installation
 ```bash
-pip install scikit-learn pandas numpy matplotlib xgboost yfinance seaborn autopep8 pandas-datareader keras tensorflow ipykernel
+pip install scikit-learn pandas numpy matplotlib xgboost yfinance seaborn autopep8 pandas-datareader keras tensorflow ipykernel pyarrow
 ```
+
+
+## Running the code
+Run the notebooks in the following order:
+1. pull_data.ipynb
+1. pull_events.ipynb
+1. prepare_dataset.ipynb
+2. train_model.ipynb
+
 
 
 ## Resources
