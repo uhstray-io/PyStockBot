@@ -15,8 +15,9 @@ pip install scikit-learn pandas numpy matplotlib xgboost yfinance seaborn autope
 Run the notebooks in the following order:
 1. pull_data.ipynb
 1. pull_events.ipynb
-1. prepare_dataset.ipynb
-2. train_model.ipynb
+2. pull_dividends_splits.ipynb
+3. prepare_dataset.ipynb
+4. train_model.ipynb
 
 
 
