@@ -5,7 +5,7 @@ This is a project to create a stock bot that can predict the stock price of a co
 
 ## Trading Design Architecture
 
-![Trading Design Architecture](.images/trading-design-architecture.png)
+![Trading Design Architecture](.images/pystockbot.excalidraw.svg)
 
 ## Installation
 ```bash
