@@ -8,8 +8,15 @@ This is a project to create a stock bot that can predict the stock price of a co
 ![Trading Design Architecture](.images/pystockbot.excalidraw.svg)
 
 ## Installation
+
+This project uses uv as a package manager. To install uv and the dependencies, run the following commands:
+
 ```bash
-pip install scikit-learn pandas numpy matplotlib xgboost yfinance seaborn autopep8 pandas-datareader keras tensorflow ipykernel pyarrow mplfinance plotly dash nbformat
+pip install -U uv
+```
+
+```bash
+uv sync
 ```
 
 
