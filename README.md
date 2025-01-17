@@ -7,6 +7,11 @@ This is a project to create a stock bot that can predict the stock price of a co
 
 ![Trading Design Architecture](.images/pystockbot.excalidraw.svg)
 
+## Contributing Guidelines
+
+- [Review our Code of Conduct](https://www.uhstray.io/en/code-of-conduct)
+- [Check our CONTRIBUTING.MD](./CONTRIBUTING.md)
+
 ## Installation
 
 This project uses uv as a package manager. To install uv and the dependencies, run the following commands:
