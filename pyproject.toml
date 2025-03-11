@@ -21,6 +21,7 @@ dependencies = [
     "mplfinance>=0.12.10b0",
     "plotly>=6.0.0",
     "nbformat>=5.10.4",
+    "ipydatagrid>=1.4.0",
 ]
 
 # Optional dependencies

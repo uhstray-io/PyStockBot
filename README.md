@@ -28,11 +28,11 @@ uv sync
 ## Running the code
 Run the notebooks in the following order:
 1. pull_data.ipynb
-1. pull_events.ipynb
-2. pull_dividends_splits.ipynb
-3. prepare_dataset.ipynb
-4. train_model.ipynb
-5. analyze_model.ipynb
+2. pull_events.ipynb
+3. pull_dividends_splits.ipynb
+4. prepare_dataset.ipynb
+5. train_model.ipynb
+6. analyze_model.ipynb
 
 ## Understanding the code
 The code is divided into the following sections:
