@@ -22,6 +22,7 @@ dependencies = [
     "plotly>=6.0.0",
     "nbformat>=5.10.4",
     "ipydatagrid>=1.4.0",
+    "nbconvert>=7.16.6",
 ]
 
 # Optional dependencies
