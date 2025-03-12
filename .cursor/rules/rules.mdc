@@ -1,0 +1,45 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+ore Principles
+
+Prefer simple solutions over complex ones
+Maintain clean, readable code
+Make minimal edits rather than large rewrites
+Avoid duplicate code; reuse and refactor when possible
+
+Code Structure
+
+Keep files concise when possible, but prioritize logical organization over strict line count
+Files can exceed 300 lines when appropriate, especially for styling files or when splitting would reduce clarity
+Evaluate 3-5 approaches before implementing the best option
+Use well-documented, mainstream libraries/repos
+
+Documentation & Communication
+
+Maintain INFO.MD with major changes and important context
+Add meaningful comments to explain complex logic
+Document design decisions and alternatives considered
+
+Development Process
+
+Think through every feature before implementation
+Test thoroughly before suggesting changes
+Propose clear organization strategies for the codebase
+
+Quality Assurance
+
+Prioritize code cleanliness and maintainability
+Review all suggestions for potential issues
+Consider edge cases and error handling
+- You can @ files here
+- You can use markdown but dont have to
