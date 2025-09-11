@@ -21,6 +21,26 @@ PyStockBot consists of two main components:
 - **Multiple Dashboards**: ML predictions, market indicators, social sentiment, earnings analysis, and asset tracking
 - **Responsive Design**: Optimized for desktop and mobile viewing
 
+## Directory Structure
+```
+├── api-service/                 # Go Huma API
+│   ├── controllers/
+│   ├── models/
+│   ├── middleware/
+│   └── services/
+├── db/                          # PostgreSQL Database
+│   └── migrations/
+├── frontend/                    # Next.js Application  
+│   ├── app/
+│   ├── components/
+│   ├── hooks/
+│   └── store/
+└── ml-pipeline/                 # Python ML Services
+    ├── models/
+    ├── pipelines/
+    ├── serving/
+    └── streaming/
+```
 ## Trading Design Architecture
 
 ![Trading Design Architecture](.images/pystockbot.excalidraw.svg)
