@@ -23,7 +23,7 @@ PyStockBot consists of two main components:
 
 ## Directory Structure
 ```
-├── api-service/                 # Go Huma API
+├── api/                         # Go Huma API
 │   ├── controllers/
 │   ├── models/
 │   ├── middleware/
@@ -35,11 +35,16 @@ PyStockBot consists of two main components:
 │   ├── components/
 │   ├── hooks/
 │   └── store/
-└── ml-pipeline/                 # Python ML Services
-    ├── models/
-    ├── pipelines/
-    ├── serving/
-    └── streaming/
+├── infra/                       # Infrastructure Deployment  
+│   ├── docker/
+│   ├── kubernetes/
+│   └── scripts/
+├── ml-pipeline/                 # Python ML Services
+│   ├── models/
+│   ├── pipelines/
+│   ├── serving/
+│   └── streaming/
+└── tests/ 
 ```
 ## Trading Design Architecture
 
@@ -139,19 +144,6 @@ Run the Jupyter notebooks in sequence to execute the complete ML pipeline:
 - **Typography**: Professional financial fonts (Source Sans Pro, Playfair Display)
 - **State Management**: React hooks and context
 
-## 📁 Project Structure
-
-```
-PyStockBot/
-├── stonks/src/           # Stock analysis notebooks
-├── crypto/src/           # Cryptocurrency analysis notebooks
-├── ui/                   # Next.js web dashboard
-│   ├── app/             # Next.js app router
-│   ├── components/      # React components
-│   └── styles/          # CSS and styling
-├── CLAUDE.md            # Development guidelines
-└── cleannb.py          # Notebook cleaning utility
-```
 
 ## Contributing Guidelines
 
