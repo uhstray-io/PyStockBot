@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  postgres:
+    build: .
+    container_name: financial_db
+    environment:
+      POSTGRES_DB: financial_platform
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./init/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./init/timescale.sql:/docker-entrypoint-initdb.d/00-timescale.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d financial_platform"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  db_data:
