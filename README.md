@@ -48,6 +48,7 @@ PyStockBot consists of two main components:
 ```
 ## Trading Design Architecture
 
+![Architecture](.images/architecture.excalidraw.svg)
 ![Trading Design Architecture](.images/pystockbot.excalidraw.svg)
 
 ## 🚀 Quick Start
